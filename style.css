@@ -227,6 +227,12 @@ body {
         font-weight: 800;
         line-height: 150%; /* 30px */
     }
+
+    /* hover */
+    .title:hover {
+        color: var(--color-yellow, #F4D04E);
+    }
+
     
     .description {
         height: 72px;
