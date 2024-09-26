@@ -42,7 +42,7 @@ body {
 
 
 /* card-mobile */
-@media only screen and (max-width: 600px) and (min-width: 375px) {
+@media  screen and (min-width: 375px) {
 
     body {
         background: var(--color-yellow, #F4D04E);
@@ -167,7 +167,7 @@ body {
 }
 
 /* card destop */
-@media only screen (max-width: 601px) and (min-width: 1440px) {
+@media  screen and (min-width: 1440px) {
     .card-container {
         width: 384px;
         height: 522px;
@@ -176,7 +176,7 @@ body {
     }
     .card-content {
         width: 384px;
-        height: 474px;
+        /* height: 474px; */
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -233,6 +233,7 @@ body {
     }
     
     .description {
+        height: 72px;
         color: var(--color-gray-500, #6B6B6B);
         font-family: Figtree;
         font-size: var(--font-size-text-preset-2, 16px);
