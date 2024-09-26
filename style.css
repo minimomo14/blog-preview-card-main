@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root
-/* text */
+/* text-size-preset */
 --font-size-text-preset-1: 24px, 
 --font-size-text-preset-2: 16px;
 --font-size-text-preset-3: 14px;
@@ -21,10 +21,9 @@
 --spacing-50:  4px;
 
 
-
 /* style start here */
 body {
-    
+    background: var(--color-yellow, #F4D04E);
 }
 .attribution {
     text-align: center;
@@ -135,7 +134,7 @@ body {
         line-height: 150%; /* 21px */
         margin: 0;
     }
-    
+
     .avatar {
         display:flex;
         align-items: center;
@@ -146,16 +145,16 @@ body {
         align-items: flex-start;
         gap: var(--spacing-200, 24px); */
     }
+
     .userpic {
         width: 32px;
         height: 32px;
     }
-    
+
     .username {
         width: 85px;
         height: 21px;
         color: var(--color-gray-950, #111);
-    /* text-preset-3-bold */
         font-family: Figtree;
         /* text-preset-3-bold */
         font-size: var(--font-size-text-preset-3, 14px);
@@ -192,7 +191,6 @@ body {
         height: 201px;
         border-radius: 10px;
         padding: var(--spacing-200, 24px);
-        /* border: 3px solid #F4D04E; */
         background: var(--color-yellow, #F4D04E);
     }
     
@@ -201,8 +199,6 @@ body {
         justify-content: center;
         align-items: center;
         gap: var(--spacing-100, 8px);
-        /* width: 49px; */
-        /* height: 18px; */
         background: var(--color-yellow, #F4D04E); 
         border-radius: 4px;
         padding: var(--spacing-50, 4px) var(--spacing-150, 12px);
